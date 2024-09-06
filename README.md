@@ -1,7 +1,5 @@
 # C++ simple guide 
 
-## Index
-
 ## Notes
 
 Compiling in C++ is different depending the OS you are using.
@@ -16,6 +14,8 @@ On Linux the command is the next:
 
 
 This is because Linux do not work on executables with .exe extension.
+
+## Index
 
 ### I.Basics
 
