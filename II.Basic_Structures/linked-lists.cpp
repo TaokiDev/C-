@@ -17,7 +17,7 @@ void listElements(node list);
 void insert(int insertValue, node &list);
 bool findRecursively(int valueSearch, node list);
 bool findIterative(int valueSearch, node list);
-
+void delValue(int deleteValue, node &list);
 
 int main(){
     
@@ -75,6 +75,7 @@ int main(){
             } else{
                 cout << "Data not found" << endl; 
             }
+            break;
         }
         
         case 4:{
@@ -87,8 +88,17 @@ int main(){
             }else{
                 cout <<"Data not found " << endl;
             }
+            break;
         }
 
+        case 5:{
+            int n;
+            
+            cout << "Enter the number to delete -> ";
+            cin >> n;
+            
+            delValue(n, list);
+        }
         case 6:{
             cout << "Exiting..."<< endl;
             return 0;
@@ -132,6 +142,29 @@ void insert(int insertValue, node &list){
         insert(insertValue, list->next);
     }
 };
+
+void delValue(int deleteValue, node &list){
+    /*Iteration*/
+    node i = list;
+    /*We want ot link the previous node to the next one
+    that is how we delete elements on the list*/
+    node prev = NULL; 
+
+    while(i != NULL){
+
+        if(i -> value == deleteValue){
+            //1. is the first element on the list
+            if(prev == NULL){
+                list = list -> next;
+            }else{
+            prev -> next = i -> next;
+        }
+        }else{
+            prev = i;
+        }
+        i = i -> next;
+    }
+}
 
 bool findRecursively(int valueSearch, node list){
     /*Confirms that the list is not empty, otherwise
