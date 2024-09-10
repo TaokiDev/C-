@@ -50,3 +50,10 @@ This is because Linux do not work on executables with .exe extension.
 - vowels -> Counts the vowels on a sentence.
 
 - pal-number -> Finds if the number typed are palindrome or not.
+
+### II.Basic_Structures
+
+- linked-lists -> Explain what linked list are and contains functions to manipulate on them.
+
+- dynamic-arrays -> In C++ we work on vectors in dynamics array for safety interaction with arrays,
+                    this file contains CRUD functions and other complementary features to work on vectors(dynamic arrays).
