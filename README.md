@@ -55,5 +55,7 @@ This is because Linux do not work on executables with .exe extension.
 
 - linked-lists -> Explain what linked list are and contains functions to manipulate on them.
 
-- dynamic-arrays -> In C++ we work on vectors in dynamics array for safety interaction with arrays,
+- dynamic-arrays -> In C++ we work on vectors in dynamics arrays for their safety interaction,
                     this file contains CRUD functions and other complementary features to work on vectors(dynamic arrays).
+
+- stack-queues -> Explains how stacks and queues works for managing tasks.
