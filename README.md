@@ -59,3 +59,5 @@ This is because Linux do not work on executables with .exe extension.
                     this file contains CRUD functions and other complementary features to work on vectors(dynamic arrays).
 
 - stack-queues -> Explains how stacks and queues works for managing tasks.
+
+- sets-maps -> Explains by an exercise how maps and sets works.
