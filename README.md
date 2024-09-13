@@ -51,7 +51,7 @@ This is because Linux do not work on executables with .exe extension.
 
 - pal-number -> Finds if the number typed are palindrome or not.
 
-### II.Basic_Structures
+### II.Data_Structures
 
 - linked-lists -> Explain what linked list are and contains functions to manipulate on them.
 
