@@ -61,3 +61,7 @@ This is because Linux do not work on executables with .exe extension.
 - stack-queues -> Explains how stacks and queues works for managing tasks.
 
 - sets-maps -> Explains by an exercise how maps and sets works.
+
+### III. Programing Oriented Objects (POO)
+
+- This section contains a simple file (vehicle-dealership.cpp) that explains the functionallity of POO.
