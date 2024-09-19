@@ -65,3 +65,7 @@ This is because Linux do not work on executables with .exe extension.
 ### III. Programing Oriented Objects (POO)
 
 - This section contains a simple file (vehicle-dealership.cpp) that explains the functionallity of POO.
+
+### IV. I/O Files
+
+- This section contains an example to work on files.
